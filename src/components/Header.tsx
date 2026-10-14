@@ -13,7 +13,7 @@ export default function Header() {
       >
         <a className="wordmark" href="/" aria-label="Anzo portfolio home">
           <span>ANZO</span>
-          <small>FRONTEND ENGINEER</small>
+          <small>FRONTEND DEVELOPER / VIDEO CREATOR</small>
         </a>
 
         <button
@@ -36,6 +36,26 @@ export default function Header() {
           </div>
 
           <div className="header-actions" onClick={() => setMenuOpen(false)}>
+            <a
+              className="header-social-link"
+              href="https://github.com/Zekechan11"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+              title="GitHub"
+            >
+              GitHub
+            </a>
+            <a
+              className="header-social-link"
+              href="https://www.linkedin.com/in/pelayo-ezekiel-angelo-c-6617a0345/?isSelfProfile=true"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+            >
+              LinkedIn
+            </a>
             <ThemeToggle />
           </div>
         </div>

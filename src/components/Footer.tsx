@@ -7,10 +7,10 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="page-frame footer-main">
         <div className="footer-pitch">
-          <p className="footer-kicker">FRONTEND ENGINEERING / DIGITAL CRAFT</p>
+          <p className="footer-kicker">WEB DEVELOPMENT / VIDEO / DIGITAL CONTENT</p>
           <h2>Make the web<br /><span>feel effortless.</span></h2>
           <p className="footer-description">
-            Thoughtful interfaces, clear interactions, and fast experiences.
+            From interactive websites to video edits and creator content.
           </p>
           <a className="footer-cta" href="#experience">
             Explore my experience <ArrowUpRight aria-hidden="true" />
@@ -28,7 +28,7 @@ export default function Footer() {
             <span className="footer-monogram">EP</span>
             <div>
               <strong>Ezekiel Angelo C. Pelayo</strong>
-              <span>Frontend Engineer</span>
+              <span>Frontend Developer</span>
             </div>
           </div>
           <div className="footer-social-group">

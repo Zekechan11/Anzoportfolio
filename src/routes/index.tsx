@@ -66,6 +66,7 @@ function App() {
     { name: 'Bootstrap', icon: 'bootstrap', color: '7952B3', short: 'BS' },
     { name: 'TanStack', icon: 'tanstack', color: 'FF4154', short: 'TS' },
     { name: 'React', icon: 'react', color: '61DAFB', short: 'RE' },
+    { name: 'Vue.js', icon: 'vuedotjs', color: '4FC08D', short: 'VUE' },
     { name: 'Next.js', icon: 'nextdotjs', color: 'FFFFFF', short: 'NX' },
   ]
 
@@ -73,19 +74,25 @@ function App() {
     <main className="portfolio-main">
         <section className="hero-section page-frame" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <p className="eyebrow"><span /> Frontend engineer / React + TypeScript</p>
+            <p className="eyebrow"><span /> Frontend developer / Video editor / Content creator</p>
             <h1 id="hero-title" className="hero-name">
              Hi I'm Ezekiel<br /><span>Angelo C.Pelayo</span>
             </h1>
             <p className="hero-intro">
-              Thoughtful interfaces, clear interactions, and fast experiences
-              for the modern web.
+              I build thoughtful web experiences, edit videos, and create digital content.
             </p>
             <div className="hero-actions">
               <a className="button-primary" href="#experience">
                 Explore experience <ArrowDownRight aria-hidden="true" />
               </a>
-              <a className="button-text" href="#toolkit">View toolkit</a>
+              <a
+                className="button-text"
+                href="/Pelayo%20Ezekiel_Resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View my resume
+              </a>
             </div>
             <p className="hero-note">Focused on the details people feel.</p>
           </div>
@@ -120,8 +127,16 @@ function App() {
               <p className="eyebrow">01 / SELECTED BUILDS</p>
               <h2>Ideas made<br /><em>interactive.</em></h2>
               <p className="section-intro">
-                A selection of applications and experiments from my frontend work.
+                A selection of applications and experiments I built as college projects.
               </p>
+              <a
+                className="button-text"
+                href="https://github.com/Zekechan11"
+                target="_blank"
+                rel="noreferrer"
+              >
+                See more projects on GitHub
+              </a>
             </div>
             <div className="project-tabs" role="tablist" aria-label="Project category">
               <button
@@ -237,7 +252,7 @@ function App() {
             <div>
               <h2>Building my<br /><em>foundation.</em></h2>
               <p className="section-intro">
-                A recent graduate with nine months of experience at Pacific Equities, focused on frontend development.
+                A 2025 graduate with nine months of full-stack development experience at Pacific Equities.
               </p>
             </div>
             <span className="section-index">02</span>
@@ -251,9 +266,9 @@ function App() {
                   <h3>Pacific Equities</h3>
                   <span>9 MONTHS</span>
                 </div>
-                <p className="experience-company">Professional experience</p>
+                <p className="experience-company">Full-stack developer</p>
                 <p className="experience-summary">
-                  I graduated last year and spent nine months gaining professional experience at Pacific Equities. My portfolio focus is building clear, responsive user interfaces.
+                  I graduated in 2025 and worked as a full-stack developer at Pacific Equities for nine months. My portfolio focus is building clear, responsive user interfaces.
                 </p>
               </div>
             </article>
